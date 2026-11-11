@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the role of attention in the Transformer architecture?"
+  },
+  {
+    "id": 2,
+    "question": "How does multi-head attention differ from a single attention operation?"
+  },
+  {
+    "id": 3,
+    "question": "What positional information is used by the Transformer?"
+  },
+  {
+    "id": 4,
+    "question": "What does the Moshi paper describe as its approach to real-time dialogue?"
+  },
+  {
+    "id": 5,
+    "question": "What components are described in the Moshi system?"
+  },
+  {
+    "id": 6,
+    "question": "What is the main idea of dynamic chunking in the hierarchical sequence modeling paper?"
+  },
+  {
+    "id": 7,
+    "question": "How does the dynamic chunking paper describe chunk boundaries?"
+  },
+  {
+    "id": 8,
+    "question": "What datasets or benchmarks are reported in the Attention Is All You Need paper?"
+  },
+  {
+    "id": 9,
+    "question": "What latency measurements does the Moshi paper report?"
+  },
+  {
+    "id": 10,
+    "question": "What exact Groq free-tier daily token quota is stated in these three papers?"
+  },
+  {
+    "id": 11,
+    "question": "Do the three papers specify a recommended production retry policy?"
+  },
+  {
+    "id": 12,
+    "question": "Which of the papers compares Transformer attention with recurrent neural networks?"
+  },
+  {
+    "id": 13,
+    "question": "Do the papers give a numerical limit for concurrent API requests?"
+  },
+  {
+    "id": 14,
+    "question": "What evidence does the dynamic chunking paper provide for its method?"
+  },
+  {
+    "id": 15,
+    "question": "Do the papers explain how to avoid all hallucinations in a deployed assistant?"
+  }
+]
