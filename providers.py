@@ -2,7 +2,7 @@ import asyncio
 import time
 import httpx
 from groq import AsyncGroq
-from . import config
+import config
 
 class ProviderError(Exception):
     def __init__(self, message, status_code=None, retry_after=None, headers=None):

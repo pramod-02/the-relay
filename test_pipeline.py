@@ -1,4 +1,5 @@
 def test_project_imports():
-    import app.pipeline
-    import app.metrics
-    assert app.pipeline.RelayPipeline
+    import pipeline
+    import metrics
+    assert pipeline.RelayPipeline
+    assert metrics.append_record

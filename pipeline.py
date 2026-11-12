@@ -2,9 +2,9 @@ import asyncio
 import time
 import uuid
 from datetime import datetime, timezone
-from . import config
-from .providers import GroqProvider, StandinProvider, ProviderError
-from .retrieval import load_passages, retrieve
+import config
+from providers import GroqProvider, StandinProvider, ProviderError
+from retrieval import load_passages, retrieve
 
 class RelayPipeline:
     def __init__(self, backend=None, retrieval_setting="350-4-no"):

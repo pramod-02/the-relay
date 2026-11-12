@@ -1,4 +1,4 @@
-from app.retrieval import Passage, retrieve
+from retrieval import Passage, retrieve
 
 def test_retrieve_matches_relevant_terms():
     passages = [

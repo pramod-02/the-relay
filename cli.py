@@ -4,8 +4,8 @@ import json
 import time
 import uuid
 from pathlib import Path
-from .pipeline import RelayPipeline
-from .metrics import append_record, generate_report_tables
+from pipeline import RelayPipeline
+from metrics import append_record, generate_report_tables
 
 QUESTIONS = [
 "What is the role of attention in the Transformer architecture?",
